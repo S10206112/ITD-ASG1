@@ -520,7 +520,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeStage: 0
-  stageArray: []
+  stageArray:
+  - {fileID: 155635918}
+  - {fileID: 1626138320}
+  - {fileID: 207606244}
   stageSetter: {fileID: 349278464}
 --- !u!1 &668959752
 GameObject:

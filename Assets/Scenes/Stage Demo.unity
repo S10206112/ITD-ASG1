@@ -504,6 +504,8 @@ MonoBehaviour:
   - {fileID: 1626138320}
   - {fileID: 207606244}
   stageSetter: {fileID: 668959752}
+  airSetter: {fileID: 0}
+  airArray: []
 --- !u!1 &668959752
 GameObject:
   m_ObjectHideFlags: 0

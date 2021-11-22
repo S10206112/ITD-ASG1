@@ -5,9 +5,6 @@ using Vuforia;
 
 public class ARtoggle : MonoBehaviour
 {
-    public GameObject Object1;
-    public GameObject Object2;
-    public GameObject Object3;
     public void ToggleAR()
     {
         // check if camera is on

@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FoodMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 6d979b37ceee20a408537f8a18b2773b
+  - enabled: 1
+    path: Assets/Scenes/BlankScreen.unity
+    guid: 444f060d024df604397d56c4245ae84d
   m_configObjects: {}

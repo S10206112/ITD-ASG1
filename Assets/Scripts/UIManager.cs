@@ -4,12 +4,12 @@ using UnityEngine;
 
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI OrderText;
 
-    public TextMeshProUGUI FoodDetails;
 
     public GameObject Tracker;
 
@@ -35,5 +35,15 @@ public class UIManager : MonoBehaviour
     {
         //when button is clicked add to order text appears
         OrderText.text = "Added to Order";
+    }
+
+    public void ToGameScene()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
+
+    public void ToFoodMenu()
+    {
+        SceneManager.LoadScene("FoodMenu");
     }
 }

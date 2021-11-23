@@ -42,16 +42,18 @@ public class TouchTracker : MonoBehaviour
                      //changes the text based on which food item was clicked
                      if(info.collider.name == "Hamburger")
                      {
-                        foodDetails.text = "This is a Burger obviously and it comes at a price etc etc";
+                        foodDetails.text = "This is a Burger slapped in with a piece of juicy meat inside it";
                      }
-                     //if(info.collider.name == "Food")
-                     //{
-                     //   foodDetails.text = "This is a Lorem Ipsum and it comes at a price etc etc";
-                     //}
-                     //if(info.collider.name == "Food")
-                     //{
-                     //   foodDetails.text = "This is a Lorem Ipsum and it comes at a price etc etc";
-                     //}
+                     if(info.collider.name == "Hotdog")
+                     {
+                        foodDetails.text = "This is the finest Hotdog Bun, wrapped with extra steamy buns";
+                     }
+                     if(info.collider.name == "Watermelon")
+                     {
+                        foodDetails.text = "This is the juicy watermelon from the Beijing Corn Company";
+                     }
+                     
+                     //Template for the food info
                      //if(info.collider.name == "Food")
                      //{
                      //   foodDetails.text = "This is a Lorem Ipsum and it comes at a price etc etc";

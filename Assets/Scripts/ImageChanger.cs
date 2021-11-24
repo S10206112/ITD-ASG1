@@ -1,3 +1,10 @@
+/******************************************************************************
+Author: Dan
+Name of Class: ImageChanger
+Description of Class: Toggles between the different food items in the menu page
+Date Created: 24/11/2021
+******************************************************************************/
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;

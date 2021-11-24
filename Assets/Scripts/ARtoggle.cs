@@ -1,3 +1,9 @@
+/******************************************************************************
+Author: Kirdesh
+Name of Class: ARtoggle
+Description of Class: Toggles the AR Camera on and off
+Date Created: 24/11/2021
+******************************************************************************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +21,7 @@ public class ARtoggle : MonoBehaviour
             VuforiaBehaviour.Instance.enabled = false;
 
             //do something here that basically turns off the current UI and shows a decent background
-            SceneManager.LoadScene("BlankScreen");
+            //SceneManager.LoadScene("BlankScreen");
         }
         else
         {
